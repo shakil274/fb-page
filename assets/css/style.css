@@ -1,0 +1,196 @@
+ 
+  /* ============================ */
+ /********* Default CSS **********/
+/*==============================*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+  /* ============================ */
+ /********* Header CSS ***********/
+/*==============================*/
+.header-top {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo{
+    /* flex:0 0 25%; */
+    display: flex;
+    align-items: center;
+}
+.menu-1 {
+    /* flex: 0 0 40%; */
+    /* margin-right: 47px; */
+}
+.menu-2{
+    /* flex: 0 0 35%; */
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.input input[type="text"] {
+    padding: 0.6rem 2rem;
+    display: inline-block;
+    border: 0.1rem solid #D8DADF;
+    background: #D8DADF;
+    border-radius: 2rem;
+}
+.input input[type="text"]::placeholder{
+    color: #656781;
+    padding-left: 15px;
+}
+.input i {
+    position: absolute;
+    top: 36px;
+    left: 65px;
+    color: #656781;
+}
+.input input[type="text"]:focus {
+    box-shadow: 7px 7px 9px #000;
+}
+input[type="text"]:focus-visible {
+    outline: none;
+}
+.menu-1 ul {
+    display: flex;
+    /* justify-content: space-around; */
+    column-gap: 10px;
+}
+.menu-1 ul li {
+    text-align: center;
+    padding: 10px 30px;
+    display: block;
+    transition: .5s;
+}
+.menu-1 ul li a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.menu-1 ul li a i {
+    color: #656781;
+    font-size: 30px;
+}
+ 
+.street {
+    color: #ddd;
+    background: #000;
+    border: 0.1rem solid #000;
+    border-radius: 7px;
+    font-size: 11px;
+    position: absolute;
+    top: 45px;
+    padding: 6px;
+    font-weight: 600;
+    display: none;
+}
+.menu-1 ul li:hover{
+    background: #D8DADF;
+}
+.menu-1 ul li:hover .street{
+    display: block;
+}
+.menu-area {
+    display: flex;
+    margin-left: 10rem;
+}
+.shakil {
+    display: flex;
+    border: 0.1rem solid #DBE7F2;
+    background: #F0F2F5;
+    border-radius: 20px;
+    align-items: center;
+    width: 100px;
+    margin-right: 20px;
+    transition: .5s;
+}
+.shakil:hover{
+    background: #DBE7F2;
+}
+.shakil img {
+    width: 40%;
+    height: auto;
+    display: block;
+    padding: 3px 0 3px 4px;
+}
+.shakil p{
+    color: #367CE7;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 7px;
+}
+.menu-2 ul {
+    display: flex;
+    column-gap: 10px;
+}
+.menu-2 ul li {
+    text-align: center;
+    /* padding: 10px 30px; */
+    /* display: block; */
+}
+.menu-2 ul li a {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 10px;
+    background: #F0F2F5;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+.menu-2 ul li a:hover{
+    background: #DBE7F2;
+}
+.menu-2 ul li a:hover .street{
+    display: block;
+}
+.menu-2 ul li a i {
+    color: #000;
+    font-size: 20px;
+}
+.rate {
+    position: absolute;
+    color: #fff;
+    top: -7px;
+    left: 26px;
+    width: 20px;
+    height: 18px;
+    background: red;
+    border-radius: 50%;
+    font-size: 10px;
+    line-height: 18px;
+    /* border: 0.1rem solid red; */
+    /* display: inline-block; */
+}
