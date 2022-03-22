@@ -33,23 +33,14 @@ a{
  /********* Header CSS ***********/
 /*==============================*/
 .header-top {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
-
 .logo{
-    /* flex:0 0 25%; */
     display: flex;
     align-items: center;
-}
-.menu-1 {
-    /* flex: 0 0 40%; */
-    /* margin-right: 47px; */
-}
-.menu-2{
-    /* flex: 0 0 35%; */
 }
 .logo img {
     width: 50px;
@@ -69,8 +60,8 @@ a{
 }
 .input i {
     position: absolute;
-    top: 36px;
-    left: 65px;
+    top: 34px;
+    left: 80px;
     color: #656781;
 }
 .input input[type="text"]:focus {
@@ -81,7 +72,6 @@ input[type="text"]:focus-visible {
 }
 .menu-1 ul {
     display: flex;
-    /* justify-content: space-around; */
     column-gap: 10px;
 }
 .menu-1 ul li {
@@ -121,7 +111,7 @@ input[type="text"]:focus-visible {
 }
 .menu-area {
     display: flex;
-    margin-left: 10rem;
+    justify-content: end;
 }
 .shakil {
     display: flex;
@@ -154,8 +144,6 @@ input[type="text"]:focus-visible {
 }
 .menu-2 ul li {
     text-align: center;
-    /* padding: 10px 30px; */
-    /* display: block; */
 }
 .menu-2 ul li a {
     display: flex;
@@ -191,6 +179,4 @@ input[type="text"]:focus-visible {
     border-radius: 50%;
     font-size: 10px;
     line-height: 18px;
-    /* border: 0.1rem solid red; */
-    /* display: inline-block; */
 }
