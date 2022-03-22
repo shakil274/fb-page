@@ -1,4 +1,5 @@
  
+
   /* ============================ */
  /********* Default CSS **********/
 /*==============================*/
@@ -60,7 +61,7 @@ a{
 }
 .input i {
     position: absolute;
-    top: 34px;
+    top: 37px;
     left: 80px;
     color: #656781;
 }
@@ -98,7 +99,7 @@ input[type="text"]:focus-visible {
     border-radius: 7px;
     font-size: 11px;
     position: absolute;
-    top: 45px;
+    top: 52px;
     padding: 6px;
     font-weight: 600;
     display: none;
@@ -113,7 +114,7 @@ input[type="text"]:focus-visible {
     display: flex;
     justify-content: end;
 }
-.shakil {
+.shakil a{
     display: flex;
     border: 0.1rem solid #DBE7F2;
     background: #F0F2F5;
@@ -123,7 +124,7 @@ input[type="text"]:focus-visible {
     margin-right: 20px;
     transition: .5s;
 }
-.shakil:hover{
+.shakil:hover a{
     background: #DBE7F2;
 }
 .shakil img {
@@ -179,4 +180,19 @@ input[type="text"]:focus-visible {
     border-radius: 50%;
     font-size: 10px;
     line-height: 18px;
+}
+
+.shihab {
+    border: 3px solid #656781;
+    font-size: 1px;
+    border-radius: 20px;
+    width: 37px;
+    height: 37px;
+    position: relative;
+}
+i.fas.fa-users{
+    font-size: 21px;
+    position: absolute;
+    left: 2px;
+    top: 6px;
 }
